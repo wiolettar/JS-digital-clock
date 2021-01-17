@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'digital-7';
+    src: url('fonts/digital-7.ttf');
+}
+body {
+    font-family: digital-7;
+    background: #1B1B1B;
+    color: #00FF00;
+}
+.display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 10px;
+}
+#clock {
+    font-size: 8rem;
+}
+#calendar {
+    font-size: 2rem;
+}
